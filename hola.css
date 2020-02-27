@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-color:  rgb(0, 153, 255);
+}
+
+.divicion{
+    border: 7px solid rgb(120, 300, 50);
+    border-radius: 7px;
+    background-color: white;
+    margin: 4rem;
+    margin-top: 2rem;
+}
+
+h1{
+    margin-top: 12px;
+    letter-spacing: 30px;
+    color: rgb(0, 153, 255);
+}
+
+h2{
+    margin: 10px;
+    color: rgb(183, 0, 255);
+    font-size: 30px;
+}
+
+nav, section, aside, footer{
+    border: 5px solid rgb(129, 212, 250);
+    border-radius: 5px;
+    margin: 12px;
+}
+
+.menu{
+    background: rgb(120, 300, 50);
+    padding: 30px;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+}
+
+.menu li a{
+    padding: 30px 70px;
+    color: black;
+}
+
+.menu li a:hover{
+    background: rgb(183, 0, 255);
+    color: white;
+}
+
+h3{
+    color: rgb(183, 0, 255);
+}
+
+section{
+    float: left;
+    width: 70%;
+    
+}
+
+article{
+    border: 5px solid rgb(245, 176, 65);
+    border-radius: 5px;
+    text-align: left;
+    margin: 12px;
+    padding: 15px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+aside{
+    float: left;
+    text-align: left;
+    padding: 15px;
+    width: 22.85%;
+    height: 500px;
+}
+
+aside ul{
+    margin: 10px;
+}
+
+footer{
+    clear: both;
+    float: 
+    padding: 12px;
+    font-size: 20px;
+    font-style: italic;    
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="CSS/master1.css">
+</head>
+<body>
+    <div class="divicion">
+        <header>
+            <div>
+                <h1 id = "Titulo">CURRICULUM</h1>
+                <h2>Valencia Mota José Demetrio</h2>
+            </div>
+            <div>
+
+            </div>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#Personalidad">Personalidad</a>
+                </li>
+                <li>
+                    <a href="#Trayectoria">Trayectoria Academica</a>
+                </li>
+                <li>
+                    <a href="#Experiencia">Expriencia de Trabajo</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h3 id = "Personalidad">Personalidad</h3>
+                <p>
+                    Titulo -> Mi informacion relevante de mi personalidad
+                    <br>
+                    Mi personalidad ante todo es de manera seria; soy ordenado; no tengo vicios dentro de mi vida, las personas me describen como agradable y confiable;
+                     mi actitud ante todo es positiva, no dejo de ser optimista en los momentos mas dificiles.
+                     Trabajador ante todo, nunca dejo de buscar que hacer, en mi vida siempre me ha gustado hacer cosas nuevas todos los dias;
+                     soy aventurero, me atrevo a todo; las nuevas ideas siempre son escuchadas, nunca se le niega una idea a alguien ya que es otra forma de ver un solo punto.
+                </p>
+                <br>
+            </article>
+            <article>
+                 <h3 id = "Trayectoria">Trayectoria Academica</h3>    
+                <p>
+                    Titulo -> Mi trayectoria Academica
+                    <br>
+                    Estudie en la Escuela Primaria "Josue Mirlo" en el estado de México, curse la Secundaria en la escuela Tecnica "Enrique Arteaga Luna",
+                     donde me capacite como Técnico Elctricista, a lo largo de esos años tome varios cursos que anexaron muchos conocimientos.
+                     Actualmete estudio la preparatoria en el Centro de Estudios y Tecnologicos Numero 9 "Juan de Dios Batiz", donde me graduare como Tecnico en Programacion.
+                     Donde aprendo a diseñar Programas de Escritorio en lenguaje Java y Pyton, Diseño de Paginas Web en HTML, javascritp, css; ademas de Programas en dispositivos Moviles.
+                </p>
+                <br>
+            </article>
+            <article>
+                <h3 id = "Experiencia">Experiencia de Trabajo</h3>
+                <p>
+                    Titulo -> Los trabajos que ha tenido
+                    <br>
+                    Gracias ami personalidad no he dejado de tener trababajos y por desgracia de mi edad por temporada y no estables;
+                     uno de mis primeros trabajos fue de ayudante de enfermero, desempeñado a lo lardgo de 6 meses; 
+                     despues busque varios trabajos donde me ayudaran a desarrollar mis habilidades.
+                      Despues de estudiar la secundaria entre a un centro de reparaciones electronicas, donde encontre la pasion por las compútradoras;
+                      sabiendo el funcionamiento internos de las computadoras quise aderntrarme a la programacion. 
+                      En la preparatoria, a la mitad de mi curso encontre un empresa que me contrato como maestro de Matematicas.
+                </p>
+                <br>
+            </article>
+        </section>
+        <aside class="Referencias">
+            <h3>Referencias</h3>
+            <div>
+                <ul>
+                    <li>
+                       <a href="Hola.html">Mi Mamá</a>
+                    </li>
+                    <li>
+                        <a href="Hola.html">Mi Papá</a>
+                    </li>
+                    <li>
+                        <a href="Hola.html">Mi Jefe</a>
+                    </li>
+                    <li>
+                        <a href="Hola.html">Diosito</a>
+                    </li>
+                    <li>
+                        <a href="Hola.html">Dios Tlatuani AMLO</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <p>
+                Diseñador : Valencia Mota Jose Demetrio
+            </p>
+            <p>
+                https://www.youtube.com/watch?v=zHUpx90NerM
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

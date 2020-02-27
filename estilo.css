@@ -1,0 +1,80 @@
+/*
+para poder realizar animaciones dentro de la css es necesaio ocupar palabras reservadas para hacer uso de transformaciones 
+*/
+@keyframes anicion_test{
+	from{
+		background-color: #00AAFF
+	}
+	to{
+		background-color: #4522AA
+	}
+}
+@keyframes girar{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+@keyframes label-animation{
+	from{
+		transform: rotate(0deg);
+		margin-left: 0;
+	}
+	to{
+		transform: rotate(180deg);
+		margin-left: 85vw;
+	}
+}
+
+.label-container{
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+.label{
+	width: 84px;
+	background-color: rgb(100,50,75);
+	color: white;
+	font-size: 1.3rem;
+	padding: 1rem;
+	border-radius: 50px;
+	text-align: center; 
+	animation: label-animation;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+.loader{
+	width: 64px;
+	height: 64px;
+	border: 5px solid rgb(44,142,200);
+	border-top: 5px solid rgb(20,10,250);
+	border-radius: 50%;
+	animation: girar 2s linear infinite;
+}
+.loader-doble{
+	width: 64px;
+	height: 64px;
+	border: 16px solid rgb(20,120,220);
+	border-top: 16px solid rgb(60,200,100);
+	border-bottom: 16px solid rgb(90,10,15);
+	border-radius: 50%;
+	animation: girar 2s linear infinite;
+
+}
+.animada{
+	width: 100%
+	background-color: #00FF55;
+	color: white;
+	text-align: center;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation:anicion_test 5s alternate infinite;
+}
